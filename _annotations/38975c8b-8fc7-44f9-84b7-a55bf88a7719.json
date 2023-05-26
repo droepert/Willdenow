@@ -1,0 +1,44 @@
+---
+canvas: "https://droepert.github.io/Willdenow/canvas/img/derivatives/iiif/Willing/BW04334000.json"
+order: 1
+---
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "oa:Annotation",
+    "motivation": [
+        "oa:commenting"
+    ],
+    "resource": [
+        {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>Solanum</p>"
+        }
+    ],
+    "on": [
+        {
+            "@type": "oa:SpecificResource",
+            "full": "https://droepert.github.io/Willdenow/canvas/img/derivatives/iiif/Willing/BW04334000.json",
+            "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=1965,3827,286,91"
+                },
+                "item": {
+                    "@type": "oa:SvgSelector",
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1964.57341,3827.07469h143.06214v0h143.06214v45.35111v45.35111h-143.06214h-143.06214v-45.35111z\"  id=\"rectangle_ca07cc15-2f11-46d7-8f18-5d105c4071ce\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                }
+            },
+            "within": {
+                "@id": "https://droepert.github.io/Willdenow/img/derivatives/iiif/Willing/manifest.json",
+                "@type": "sc:Manifest"
+            }
+        }
+    ],
+    "oa:annotatedAt": "2023-05-26T13:11:18.779Z",
+    "@id": "38975c8b-8fc7-44f9-84b7-a55bf88a7719.json",
+    "oa:annotatedBy": [
+        "droepert"
+    ]
+}
