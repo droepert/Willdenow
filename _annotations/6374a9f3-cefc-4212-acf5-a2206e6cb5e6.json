@@ -1,0 +1,44 @@
+---
+canvas: "https://droepert.github.io/Willdenow/canvas/img/derivatives/iiif/Willing/BW04334000.json"
+order: 2
+---
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "oa:Annotation",
+    "motivation": [
+        "oa:commenting"
+    ],
+    "resource": [
+        {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>Habitat in Peru 4</p>"
+        }
+    ],
+    "on": [
+        {
+            "@type": "oa:SpecificResource",
+            "full": "https://droepert.github.io/Willdenow/canvas/img/derivatives/iiif/Willing/BW04334000.json",
+            "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=1953,4288,677,126"
+                },
+                "item": {
+                    "@type": "oa:SvgSelector",
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1953.00261,4287.76837h338.62781v0h338.62781v62.753v62.753h-338.62781h-338.62781v-62.753z\"  id=\"rectangle_168f6dff-58c1-4102-87ea-4f0b8c555d31\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                }
+            },
+            "within": {
+                "@id": "https://droepert.github.io/Willdenow/img/derivatives/iiif/Willing/manifest.json",
+                "@type": "sc:Manifest"
+            }
+        }
+    ],
+    "oa:annotatedAt": "2023-05-26T13:12:35.715Z",
+    "@id": "6374a9f3-cefc-4212-acf5-a2206e6cb5e6.json",
+    "oa:annotatedBy": [
+        "droepert"
+    ]
+}
