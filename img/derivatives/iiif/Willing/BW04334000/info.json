@@ -1,0 +1,68 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "https://droepert.github.io/Willdenow/img/derivatives/iiif/Willing//BW04334000",
+  "height": 4471,
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
+      ]
+    }
+  ],
+  "protocol": "http://iiif.io/api/image",
+  "sizes": [
+    {
+      "height": 279,
+      "width": 168
+    },
+    {
+      "height": 140,
+      "width": 84
+    },
+    {
+      "height": 70,
+      "width": 42
+    },
+    {
+      "height": 35,
+      "width": 21
+    },
+    {
+      "height": 17,
+      "width": 10
+    },
+    {
+      "height": 9,
+      "width": 5
+    },
+    {
+      "height": 4,
+      "width": 3
+    },
+    {
+      "height": 2,
+      "width": 1
+    },
+    {
+      "height": 1,
+      "width": 1
+    }
+  ],
+  "tiles": [
+    {
+      "height": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "width": 512
+    }
+  ],
+  "width": 2683
+}

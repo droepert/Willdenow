@@ -1,0 +1,75 @@
+---
+added: 2023-05-26 13&#58;02&#58;12.003335
+thumbnail: https://droepert.github.io/Willdenow/img/derivatives/iiif/Willing/BW04334000/full/168,/0/default.jpg
+title: 'Willing '
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://droepert.github.io/Willdenow/img/derivatives/iiif/Willing/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Willing ",
+  "viewingDirection": "left-to-right",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://droepert.github.io/Willdenow/canvas/img/derivatives/iiif/Willing/BW04334000.json",
+          "@type": "sc:Canvas",
+          "label": "B_-W_04334 -00 0",
+          "thumbnail": "https://droepert.github.io/Willdenow/img/derivatives/iiif/Willing/BW04334000/full/168,/0/default.jpg",
+          "height": 4471,
+          "width": 2683,
+          "images": [
+            {
+              "@id": "https://droepert.github.io/Willdenow/img/derivatives/iiif/Willing/BW04334000/annotation/1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://droepert.github.io/Willdenow/img/derivatives/iiif/Willing/BW04334000/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4471,
+                "width": 2683,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://droepert.github.io/Willdenow/img/derivatives/iiif/Willing/BW04334000",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://droepert.github.io/Willdenow/canvas/img/derivatives/iiif/Willing/BW04334000.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://droepert.github.io/Willdenow/canvas/img/derivatives/iiif/Willing/BW043340003.json",
+          "@type": "sc:Canvas",
+          "label": "B_-W_04334 -00 0__3",
+          "thumbnail": "https://droepert.github.io/Willdenow/img/derivatives/iiif/Willing/BW043340003/full/181,/0/default.jpg",
+          "height": 4771,
+          "width": 2890,
+          "images": [
+            {
+              "@id": "https://droepert.github.io/Willdenow/img/derivatives/iiif/Willing/BW043340003/annotation/2.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://droepert.github.io/Willdenow/img/derivatives/iiif/Willing/BW043340003/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4771,
+                "width": 2890,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://droepert.github.io/Willdenow/img/derivatives/iiif/Willing/BW043340003",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://droepert.github.io/Willdenow/canvas/img/derivatives/iiif/Willing/BW043340003.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
